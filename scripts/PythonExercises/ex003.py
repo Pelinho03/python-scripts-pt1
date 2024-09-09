@@ -1,3 +1,7 @@
+'''
+003. Criar um programa que leia dois números e apresente a soma entre eles.
+'''
+
 # Pede ao utilizador para introduzir dois números
 num1 = int(input('Digite o 1º número: '))
 num2 = int(input('Digite o 2º número: '))

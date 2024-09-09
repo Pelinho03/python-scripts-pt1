@@ -1,3 +1,6 @@
+'''
+004. Criar um programa que leia algo pelo teclado e mostre no ecrã o seu tipo primitivo e todas as informações possíveis sobre ele.
+'''
 # Pede ao utilizador para inserir algo
 valor = input('Escreve algo: ')
 
