@@ -4,7 +4,9 @@
 # Pede ao utilizador para inserir um número inteiro
 num = int(input('Indica um número inteiro: '))
 
+print('_'*12)
 # Ciclo for para gerar a tabuada
 for i in range(1, 11):  # Gera os números de 1 a 10
     valor = num * i
-    print('{} x {} = {}'.format(num, i, valor))
+    print('{} x {:2} = {:2}'.format(num, i, valor))
+print('_'*12)
