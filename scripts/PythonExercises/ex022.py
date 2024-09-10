@@ -16,6 +16,7 @@ print(f"Nome em minúsculas: {nome_completo.lower()}")
 
 # Calcular o número de letras sem considerar os espaços
 num_letras = len(nome_completo.replace(" ", ""))
+#num_letras = len(nome_completo) - nome_completo.count(' ')
 print(f"Total de letras (sem espaços): {num_letras}")
 
 # Encontrar o primeiro nome e calcular o número de letras
