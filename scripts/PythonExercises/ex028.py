@@ -10,8 +10,10 @@ import time
 numero_computador = random.randint(0, 5)
 
 # Pedir ao utilizador para tentar adivinhar o número
+print('-=-'*20)
 print('Vou pensar num número entre 0 e 5... tenta adivinhar!')
 numero_utilizador = int(input('Qual número achas que escolhi? '))
+print('-=-'*20)
 
 # Simulação de "processamento"
 print('A processar...')

@@ -12,7 +12,7 @@ if velocidade > limite:
     # Calcular o valor da multa
     excesso = velocidade - limite
     multa = excesso * 10
-    print(f'Estás multado! Excedeste o limite de {limite}Km/h.')
+    print(f'Estás multado! Excedeste o limite de {limite}Km/h porque ias a {velocidade:.0f}Km/h.')
     print(f'Terás de pagar uma multa de {multa:.2f}€ por excesso de velocidade.')
 else:
     print('Estás dentro do limite de velocidade. Continua a conduzir com segurança!')
